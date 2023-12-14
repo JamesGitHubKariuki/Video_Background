@@ -1,0 +1,54 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar, .button{
+    position: absolute;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    display: flex;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+}
+
+.logo{
+    font-family: 'Rubik', sans-serif;
+}
+
+.button{
+    padding: 50vh 0 0 50%;
+}
+
+.button input{
+    padding: 10px;
+    border-radius: 20px;
+    background: green;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+
